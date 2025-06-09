@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "90s Theme Transformer",
+  "version": "1.0",
+  "description": "Transform CSS into a 90s theme, detect Tailwind, share CSS, add emojis, and use a time machine to revert styles!",
+  "permissions": ["scripting", "storage", "activeTab", "clipboardWrite"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
